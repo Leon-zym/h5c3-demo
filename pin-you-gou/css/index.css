@@ -1,0 +1,227 @@
+/* 声明字体图标*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?hxuzt7');
+    src:  url('../fonts/icomoon.eot?hxuzt7#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?hxuzt7') format('truetype'),
+      url('../fonts/icomoon.woff?hxuzt7') format('woff'),
+      url('../fonts/icomoon.svg?hxuzt7#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news .news-hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+    line-height: 30px;
+}
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+.news-hd .more {
+    float: right;
+}
+.news-hd .more::after {
+    content: '\ea43';
+    font-family: 'icomoon';
+    margin-left: 4px;
+}
+.news .news-bd {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.news .news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.newsflash .lifeservice {
+    height: 209px;
+    border-left: 1px solid #e4e4e4;
+}
+.lifeservice ul {
+    width: 253px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 25%;
+    height: 70px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    border-left: 0;
+    margin-left: -1px;
+    text-align: center;
+}
+.lifeservice ul li a i {
+    display: inline-block;
+    margin-top: 10px;
+    width: 26px;
+    height: 30px;
+    background: url(../images/icons.png) no-repeat;
+}
+
+.lifeservice .hua i {
+    background-position: -16px -15px;
+}
+.lifeservice .ji i {
+    background-position: -78px -16px;
+}
+.lifeservice .dian i {
+    background-position: -140px -16px;
+}
+.lifeservice .you i {
+    background-position: -205px -15px;
+}
+.lifeservice .cai i {
+    background-position: -16px -87px;
+}
+.lifeservice .jia i {
+    background-position: -77px -88px;
+}
+.lifeservice .jiu i {
+    background-position: -140px -87px;
+}
+.lifeservice .huo i {
+    background-position: -206px -87px;
+}
+.lifeservice .zhong i {
+    background-position: -16px -159px;
+}
+.lifeservice .licai i {
+    background-position: -77px -15px;
+}
+.lifeservice .lipinka i {
+    background-position: -140px -15px;
+}
+.lifeservice .bai i {
+    background-position: -205px -158px;
+}
+
+.newsflash .bargain {
+    height: 81px;
+    margin-top: 5px;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 12px;
+}
+.recom .recom-hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5C5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom .recom-bd {
+    float: left;
+    background-color: #EBEBEB;
+}
+.recom-bd ul li {
+    float: left;
+}
+.recom-bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+.recom-bd ul li:nth-child(even) {
+    width: 0;
+    height: 145px;
+    margin-top: 10px;
+    border-left: 1px solid #ddd;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #C81624;
+    line-height: 30px;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #C81624;
+}
+.box-hd .tab-list ul {
+    float: right;
+}
+.box-hd .tab-list ul li {
+    float: left;
+}
+.box-hd .tab-list ul li a {
+    margin: 0 15px;
+}
+
+.box-bd {
+    height: 361px;
+}
+.tab-list-item>div {
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    margin-right: 10px;
+    line-height: 34px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.col_210 ul {
+    margin-left: 12px;
+}
+
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219 {
+    width: 219px;
+}
+.border-bottom {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
